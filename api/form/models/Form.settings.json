@@ -1,0 +1,43 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "form",
+    "description": "Any forms in the application"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "panelImage": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "formTitle": {
+      "default": "",
+      "type": "string"
+    },
+    "panelParagraphOne": {
+      "default": "",
+      "type": "string"
+    },
+    "panelParagraphTwo": {
+      "default": "",
+      "type": "string"
+    },
+    "panelTitle": {
+      "default": "",
+      "type": "string"
+    },
+    "formDescription": {
+      "default": "",
+      "type": "string"
+    },
+    "checkboxText": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tiles",
+      "handler": "Tile.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tiles/count",
+      "handler": "Tile.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tiles/:_id",
+      "handler": "Tile.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tiles",
+      "handler": "Tile.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tiles/:_id",
+      "handler": "Tile.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tiles/:_id",
+      "handler": "Tile.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

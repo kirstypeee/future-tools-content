@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "banner",
+  "info": {
+    "name": "banner",
+    "description": "Banner for the homepage"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "Future Design Tools",
+      "type": "string",
+      "required": true
+    },
+    "banner-image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "address": {
+      "default": "",
+      "type": "string"
+    },
+    "details": {
+      "default": "",
+      "type": "string"
+    },
+    "headline": {
+      "default": "",
+      "type": "text"
+    }
+  }
+}

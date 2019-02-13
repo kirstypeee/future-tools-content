@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/attendees",
+      "handler": "Attendees.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/attendees/count",
+      "handler": "Attendees.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/attendees/:_id",
+      "handler": "Attendees.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/attendees",
+      "handler": "Attendees.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/attendees/:_id",
+      "handler": "Attendees.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/attendees/:_id",
+      "handler": "Attendees.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
