@@ -1,8 +1,7 @@
 applications:
 - name: future-tools-content
-  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
   command: npm start
-  memory: 1GB
-  timeout: 120
+  memory: 1.5GB
+  timeout: 300
   env:
     NODE_ENV: production
