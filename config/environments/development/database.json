@@ -5,13 +5,14 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-        "host": "portal-ssl576-4.bmix-syd-yp-f080d8c0-5113-4f88-93aa-69b3f5a518e4.3422254522.composedb.com",
-        "port": "21004",
+        "host": "sl-aus-syd-1-portal.5.dblayer.com",
+        "port": "21022",
         "database": "compose",
         "username": "admin",
-        "password": "ITBRGLWSBWTRXFOG"
+        "password": "AGJBDYRSGNFFEONI"
       },
       "options": {
+        "authenticationDatabase": "admin",
         "ssl": true
       }
     }
