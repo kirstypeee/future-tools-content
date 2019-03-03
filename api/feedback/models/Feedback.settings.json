@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "feedback",
+  "info": {
+    "name": "feedback",
+    "description": "Feedback provided by the user regarding the accuracy of the classifications and whether or not they want to delete their data"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "default": "",
+      "type": "json",
+      "required": true
+    },
+    "classification": {
+      "default": "",
+      "type": "json"
+    },
+    "deleteData": {
+      "default": false,
+      "type": "boolean",
+      "required": true
+    },
+    "traitFeedback": {
+      "default": "",
+      "type": "json"
+    }
+  }
+}
